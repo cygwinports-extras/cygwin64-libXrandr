@@ -1,0 +1,11 @@
+CROSS_HOST="x86_64-pc-cygwin"
+ORIG_PN="libXrandr"
+inherit cross xorg
+
+NAME="cygwin64-libXrandr"
+VERSION=1.4.0
+RELEASE=1
+CATEGORY="Devel"
+SUMMARY="X RandR library for Cygwin 64bit toolchain"
+
+MAKEOPTS+=" libman_DATA= "
